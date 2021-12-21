@@ -1,6 +1,6 @@
 import { useMoralis} from "react-moralis";
 import TimeAgo from "timeago-react";
-import Avatar from "./Avatar";
+import Avatar from "../components/Avatar";
 
 function Message({message}) {
     const {user} = useMoralis();
